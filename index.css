@@ -127,6 +127,18 @@ main{
           justify-content: space-around;
           margin-top: 30px;
 }
+/* skill related style */
+
+#what-i-do-description{
+          padding: 30px 150px;
+}
+.skill-container{
+          display: flex;
+}
+.skill{
+          padding: 30px 33px;
+          gap: 30px;
+}
           
 
 
