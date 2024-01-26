@@ -139,6 +139,15 @@ main{
           padding: 30px 33px;
           gap: 30px;
 }
+/* resume section start */
+.column-title{
+          color:#474747;
+          font-size: 30px;
+          font-weight: 700; ;
+}
+.resume-container{
+          display:flex;
+}
           
 
 
