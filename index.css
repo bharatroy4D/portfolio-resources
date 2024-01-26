@@ -208,6 +208,16 @@ footer{
 .footer-column{
           width: 50%;
 }
+.contact input ,
+textarea{
+          display: block;
+          margin-bottom: 25px;
+          padding: 18px 30px;
+          color: #757575;
+          border: none;
+          border-radius: 5px;
+          width: 100%;
+}
 
 
 
