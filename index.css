@@ -208,7 +208,7 @@ footer{
 .footer-column{
           width: 50%;
 }
-.contact input ,
+.contact input[type="text"], .contact input[type="Email"],
 textarea{
           display: block;
           margin-bottom: 25px;
