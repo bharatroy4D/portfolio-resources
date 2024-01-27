@@ -217,6 +217,94 @@ textarea{
           border: none;
           border-radius: 5px;
           width: 100%;
+} 
+/* media quary responsive */
+@media screen and (max-width:600px) {
+          
+          nav{
+          flex-direction: column;
+          }
+          nav ul{
+          flex-direction: column;
+          }
+          .banner{
+          flex-direction: column-reverse;
+          gap: 30px;
+
+          }
+          .person{
+                    padding-left: 70px;
+          }
+          .banner-contain{
+                    padding-left: 30px;
+                    align-items: center;
+          }
+          .banner-images{
+                    padding-right: 130px;
+          }
+          .about-info-container{
+               flex-direction: column;
+               width: 400px;
+               gap: 20px;
+               padding-right: 150px;
+          }
+          .uniqe-item{
+                    width: 400px;
+                    padding-right: 120px;
+          }
+          .section-title{
+                   text-align: left;
+                   padding-left: 50px;
+          }
+          .skill-container{
+                    flex-direction: column;
+                    text-align: center;
+                    width: 450px;
+          }
+          #what-i-do-description{
+                    width: 700px;
+                    padding-right: 270px;
+
+          }
+          .section-uniqe{
+                    padding-left: 150px;
+          }
+          .resume-container{
+                    flex-direction: column;
+          }
+          .resume-uniqe{
+                    font-size: 30px;
+          }
+          .resume-column{
+                    margin-right: 200px;
+          }
+          .resume-item-description{
+                    width: 400px;
+                    padding-left: 40px;
+          }
+          .column-title{
+                    padding-left: 120px;
+          }
+          .resume-item-title{
+                    padding-left: 40px;
+          }
+          .resume-item-institute{
+                    padding-left: 40px;
+          }
+          footer{
+                 flex-direction: column;
+                 padding-left: 100px;
+          }
+          .social-link{
+                    display: flex;
+          }
+          .contact input[type="text"], .contact input[type="Email"],
+          a{
+          display: none;
+          
+} 
+
+       
 }
 
 
